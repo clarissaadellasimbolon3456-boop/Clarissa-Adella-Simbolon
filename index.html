@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi Clarissa Adella Simbolon, siswi SMK jurusan TJKT.">
+  <title>Portofolio | Clarissa Adella Simbolon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navigasi utama">
+      <a class="logo" href="#beranda">Clarissa<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Ganti tema">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">PORTOFOLIO PRIBADI</p>
+        <h1>Halo, saya <span>Clarissa Adella Simbolon</span></h1>
+        <p class="hero-subtitle">Siswi SMK • Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</p>
+        <p class="hero-description">Saya tertarik mempelajari teknologi, jaringan komputer, dan pembuatan website. Ini adalah tempat untuk mengenal diri dan karya saya.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyek">Lihat Proyek</a>
+          <a class="button secondary" href="#kontak">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-decoration" aria-hidden="true"><div class="profile-placeholder">CA</div><span class="sparkle">✦</span></div>
+    </section>
+
+    <section id="tentang" class="section">
+      <div class="section-heading"><p class="eyebrow">KENALI SAYA</p><h2>Tentang Saya</h2></div>
+      <div class="about-panel">
+        <p>Perkenalkan, nama saya <strong>Clarissa Adella Simbolon</strong>. Saya merupakan siswi SMK jurusan <strong>Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</strong>. Saya senang belajar hal baru, terutama yang berhubungan dengan komputer, jaringan, dan teknologi digital.</p>
+        <p>Melalui portofolio ini, saya ingin menampilkan proses belajar, kemampuan, dan proyek yang pernah saya kerjakan.</p>
+      </div>
+    </section>
+
+    <section id="keahlian" class="section">
+      <div class="section-heading"><p class="eyebrow">YANG SEDANG DIPELAJARI</p><h2>Keahlian</h2></div>
+      <div class="skill-grid">
+        <article class="skill-card"><span>01</span><h3>HTML</h3><p>Menyusun struktur halaman website.</p></article>
+        <article class="skill-card"><span>02</span><h3>CSS</h3><p>Mengatur tampilan dan tata letak website.</p></article>
+        <article class="skill-card"><span>03</span><h3>JavaScript</h3><p>Membuat fitur website menjadi interaktif.</p></article>
+        <article class="skill-card"><span>04</span><h3>Jaringan Komputer</h3><p>Mempelajari dasar konfigurasi dan jaringan.</p></article>
+      </div>
+    </section>
+
+    <section id="proyek" class="section">
+      <div class="section-heading"><p class="eyebrow">HASIL BELAJAR</p><h2>Proyek Pilihan</h2><p class="section-note">Contoh proyek yang dapat diperbarui sesuai karya yang benar-benar sudah dibuat.</p></div>
+      <div class="filter-buttons" aria-label="Filter proyek">
+        <button class="filter-btn active" data-filter="semua" type="button">Semua</button>
+        <button class="filter-btn" data-filter="web" type="button">Website</button>
+        <button class="filter-btn" data-filter="desain" type="button">Desain</button>
+        <button class="filter-btn" data-filter="tjkt" type="button">TJKT</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card" data-category="web"><div class="project-number">01</div><p class="project-type">WEBSITE</p><h3>Website Portofolio</h3><p>Website pribadi menggunakan HTML, CSS, dan JavaScript.</p></article>
+        <article class="project-card" data-category="desain"><div class="project-number">02</div><p class="project-type">DESAIN</p><h3>Desain Antarmuka</h3><p>Latihan menyusun tampilan antarmuka yang sederhana dan mudah digunakan.</p></article>
+        <article class="project-card" data-category="tjkt"><div class="project-number">03</div><p class="project-type">TJKT</p><h3>Praktik Jaringan</h3><p>Dokumentasi latihan pembelajaran dasar jaringan komputer.</p></article>
+      </div>
+    </section>
+
+    <section id="kontak" class="section contact-section">
+      <div class="section-heading"><p class="eyebrow">SAPA SAYA</p><h2>Kontak</h2><p class="section-note">Formulir ini hanya contoh tampilan dan belum mengirim pesan ke email.</p></div>
+      <form id="contact-form" class="contact-form">
+        <label for="nama">Nama</label><input type="text" id="nama" placeholder="Masukkan nama" required>
+        <label for="email">Email</label><input type="email" id="email" placeholder="nama@email.com" required>
+        <label for="pesan">Pesan</label><textarea id="pesan" rows="4" placeholder="Tulis pesan..." required></textarea>
+        <button class="button primary" type="submit">Kirim Pesan</button>
+        <p id="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><p>© 2026 Clarissa Adella Simbolon</p><a href="#beranda">Kembali ke atas ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>

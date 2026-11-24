@@ -10,7 +10,7 @@ Website portofolio pribadi bertema pink aesthetic untuk tugas pembelajaran SMK j
 ## Cara menjalankan
 1. Unduh atau clone repository ini.
 2. Buka folder proyek di Visual Studio Code.
-3. Buka file `index.html menggunakan browser.
+3. Buka file `index.html` menggunakan browser.
 
 ## Publikasi dengan GitHub Pages
 1. Buka tab **Settings** pada repository.
